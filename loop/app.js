@@ -48,3 +48,13 @@ if(k==50){
     break; // when k is 50 loop will break
 }
 };
+
+
+
+//**loop continue example
+for(let k=1; k<=100; k++){
+  if(k==50){
+    continue; //when k is 50 loop will skip this iteration
+  }
+  console.log(k);
+};
