@@ -18,10 +18,10 @@ for(let i=1; i<=100; i++){
   // }
 
 // if your condition is false initially then while loop will not execute even once.
-let i = 1;
-while(i<=100){
-    console.log(i);
-    i++;
+let a = 1;
+while(a<=100){
+    console.log(a);
+    a++;
 }
 
 
@@ -38,3 +38,13 @@ do{
     console.log (j);
     j++;
 } while(j<=100);
+
+
+//**loop break example
+
+for(let k=1; k<=100; k++){
+console.log(k);
+if(k==50){
+    break; // when k is 50 loop will break
+}
+};
