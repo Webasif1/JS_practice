@@ -1,0 +1,66 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0e0e0e;
+}
+
+.card{
+  width: 350px;
+  height: 400px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 30px;
+  position: relative;
+}
+.card img{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.card i{
+  font-size: 38px;
+  cursor: pointer;
+}
+.card #love{
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background-image: url(https://t3.ftcdn.net/jpg/05/42/97/20/360_F_542972082_oDCYmPQNlnQAZr53yHwdDqaQklKoXpZN.jpg);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: transform ease .3s;
+}
+.insta-love{
+  transform: translate(-50%, -50%) scale(0);
+  background-image: url(https://t3.ftcdn.net/jpg/05/42/97/20/360_F_542972082_oDCYmPQNlnQAZr53yHwdDqaQklKoXpZN.jpg);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position: center;
+}
